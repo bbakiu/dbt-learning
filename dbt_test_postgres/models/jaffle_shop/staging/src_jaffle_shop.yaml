@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: mydata
+    schema: public
+    tables: 
+      - name: js_customers
+      - name: js_orders

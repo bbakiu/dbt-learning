@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: order
+    description: "The orders in mydata"
+    columns:
+      - name: id
+        description: "The primary key for table"
+        tests:
+          - unique
+          - not_null

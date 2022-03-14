@@ -1,0 +1,12 @@
+dbt_test_postgres: # this needs to match the profile: in your dbt_project.yml file  
+  target: dev  
+  outputs:    
+    dev:      
+      type: postgres
+      host: localhost
+      user: postgres
+      password: postgres
+      port: 5432
+      dbname: mydata
+      schema: public
+      threads: 1
